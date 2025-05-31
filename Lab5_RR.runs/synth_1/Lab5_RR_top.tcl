@@ -56,6 +56,10 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_param synth.incrementalSynthesisCache C:/Users/aidannpratt/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-22468-20STC155L15/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -80,7 +84,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.srcs/constrs_1/new/Lab5_RR.xdc
+set_property used_in_implementation false [get_files C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.srcs/constrs_1/new/Lab5_RR.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.srcs/utils_1/imports/synth_1/Lab5_RR_top.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sat May 31 16:16:16 2025
-# Process ID: 7180
+# Start of session at: Sat May 31 16:37:23 2025
+# Process ID: 18568
 # Current directory: C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.runs/synth_1
 # Command line: vivado.exe -log Lab5_RR_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab5_RR_top.tcl
 # Log file: C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.runs/synth_1/Lab5_RR_top.vds
@@ -19,6 +19,6 @@
 # Host memory       :34123 MB
 # Swap memory       :3145 MB
 # Total Virtual     :37268 MB
-# Available Virtual :23490 MB
+# Available Virtual :22395 MB
 #-----------------------------------------------------------
 source Lab5_RR_top.tcl -notrace

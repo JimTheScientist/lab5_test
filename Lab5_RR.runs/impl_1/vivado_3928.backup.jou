@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat May 31 16:39:48 2025
+# Process ID: 3928
+# Current directory: C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.runs/impl_1
+# Command line: vivado.exe -log Lab5_RR_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Lab5_RR_top.tcl -notrace
+# Log file: C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.runs/impl_1/Lab5_RR_top.vdi
+# Journal file: C:/Users/aidannpratt/Vivado/Lab5_RR/Lab5_RR.runs/impl_1\vivado.jou
+# Running On        :20STC155L15
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+# CPU Frequency     :3000 MHz
+# CPU Physical cores:8
+# CPU Logical cores :8
+# Host memory       :34123 MB
+# Swap memory       :3145 MB
+# Total Virtual     :37268 MB
+# Available Virtual :22406 MB
+#-----------------------------------------------------------
+source Lab5_RR_top.tcl -notrace
